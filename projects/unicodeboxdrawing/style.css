@@ -1,0 +1,54 @@
+*{
+    font-family:monospace;
+    text-align: center;
+    
+}
+body{
+    background:#EAF0F1;
+}
+button {
+    background-color:#2C3335;
+    border-radius: 6px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-transform: uppercase;
+    width: 200px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+button:hover{
+    background-color:#616C6F;
+}
+#placeholder,#whatsapp{
+    margin: auto;
+    width: 80%;
+    overflow-x: scroll;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 10px
+}
+pre{
+    margin: 0
+}
+input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    font-style: italic;
+    font-size: 40px
+}
+#whatsapp{
+    margin-top: 20px;
+}
+#allChar{
+    overflow-x: scroll;
+}
+@media(max-width:550px){
+    input{
+        font-size: 7vw;
+    }
+}

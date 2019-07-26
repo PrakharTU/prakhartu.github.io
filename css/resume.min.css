@@ -1,0 +1,104 @@
+/*!
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */body{font-family:'Open Sans',serif;padding-top:54px;color:#868e96}
+ @media (min-width:992px){body{padding-top:0;padding-left:17rem}}
+ h1,h2,h3,h4,h5,h6{font-family:Alef,sans-serif;font-weight:700;color:#343a40}
+ h1{font-size:6rem;line-height:5.5rem}
+ h2{font-size:3.5rem}
+ .subheading{font-weight:500;font-family:Alef,sans-serif;font-size:1.35rem}
+ .list-social-icons a{color:#495057}
+ .list-social-icons a:hover{color:#8c1516}
+ .list-social-icons a .fa-lg{font-size:1.75rem}
+ .list-icons{font-size:3rem}
+ .list-icons .list-inline-item i:hover{color:#8c1516}
+ #sideNav .navbar-nav .nav-item .nav-link{font-weight:600;text-transform:uppercase}
+ @media (min-width:992px){
+    hr{margin-top: 0px}
+     #sideNav{
+        background:linear-gradient(0deg,rgb(0, 0, 0),rgba(0, 0, 0, 0.57)),url(../img/nav.jpeg);
+        background-size:cover;
+        text-align:center;
+        position:fixed;top:0;left:0;
+        display:flex;flex-direction:column;
+        width:17rem;height:100vh
+    }
+     #sideNav .navbar-brand{display:flex;margin:auto auto 0;padding:.5rem}
+     #sideNav .navbar-brand .img-profile{max-width:10rem;max-height:10rem;border:.5rem solid rgba(255,255,255,.2)}
+     #sideNav .navbar-collapse{display:flex;align-items:flex-start;flex-grow:0;width:100%;margin-bottom:auto}
+     #sideNav .navbar-collapse .navbar-nav{flex-direction:column;width:100%}
+     #sideNav .navbar-collapse .navbar-nav .nav-item{display:block}
+     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{display:block}
+}
+     
+section.resume-section{border-bottom:1px solid #dee2e6;padding-top:5rem!important;padding-bottom:5rem!important}section.resume-section .resume-item .resume-date{min-width:none}section.resume-section .img-row .img{width:10rem}section.resume-section .img-row .img-item{border:5px solid #dee2e6;border-radius:10px;padding:15px}section.resume-section .img-fluid{margin:30px}section.resume-section #imagebox:hover .image_on,section.resume-section .image_off{display:none}section.resume-section #imagebox:hover .image_off,section.resume-section .image_on{display:block}section.resume-section .fa-pad-R{padding-right:10px}section.resume-section .fa-pad-L{padding-left:5px}section.resume-section .color-hover-container:hover .color-hover-content{color:#8c1516}section.resume-section .resume-date{width:auto}section.resume-section .btn-drk{background-color:#8c1516;border-color:#8c1516}@media (min-width:768px){section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:18rem}}@media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}.bg-primary{background-color:#8c1516!important}.text-primary{color:#8c1516!important}a{color:#8c1516}a:active,a:focus,a:hover{color:#490b0c;text-decoration:none}
+ .navbar-name{font-size: 26px;margin: auto;margin-bottom:10px ;color: white;}
+ .navbar-name:hover,.navbar-name:active,.navbar-name:focus{color: white !important;}
+ @media(max-width:991px){.navbar-name{display: none;}}
+ .courses-button,.societies-button{background:transparent;border:none;cursor: pointer;color:#868e96;padding:0px}
+ #Societies{list-style-type: none;}
+ #Societies li{display: flex;flex-direction: column;}
+ #Societies li span:nth-child(3){font-size: 15px}
+ button{cursor: pointer;}
+ .carousel-caption {bottom:-36px;}
+ .btn:active, .btn:focus{color: white}
+ .list-inline-item img{width: 40px;margin-top: -15px}
+ .filterProjects{display: none !important;margin-top: 50px;font-family: roboto;color: #000000b3}
+ .show-project {display: flex !important;}
+ .btn-project {border: none;outline: none;padding: 12px 12px;background-color: #f1f1f1;cursor: pointer;border-radius: 25px}
+ .btn-project:hover {background-color: #ddd;}
+ .btn-project.active {background-color: #666;color: white;}
+ #myBtnContainer{margin-bottom: 20px;}
+ .projectsWrapper a{margin-bottom: 10px}
+ #portfolio{background: #f1f1f145}
+
+ @media(max-width:991px){#sideNav{background: #BD5D38 !important;}}
+
+ #about{color: #000000ed;font-family: roboto; background: #F4F4F4;}
+ section.resume-section .btn-drk:hover {
+	background-color:#E45447;
+	border-color:#E45447;
+}
+.list-icons .list-inline-item i:hover {
+	color: #3D5B99;
+}
+section.resume-section .btn-drk {
+	background-color: #90ACD1;
+    border-color: #90ACD1;
+    transition: all 200ms;
+}
+.list-social-icons a:hover {
+    transition: all 300ms;
+}
+#linkedin:hover{
+    color:#0077B5
+}
+#github:hover{
+    color:#24292E
+}
+#reddit:hover{
+    color:#FF4500;
+}
+#fcc:hover{
+    color:#006400;
+}
+#twitter:hover{
+    color: #1B95E0;
+}
+.text-primary {
+	color: #E45447 !important;
+}
+section.resume-section .color-hover-container .color-hover-content {
+	color: #E45447;
+}
+section.resume-section .color-hover-container:hover .color-hover-content {
+	color: #E45447;
+}
+.bg-primary {
+    background-color: #BD5D38!important;
+    border: #BD5D38 !important;
+}
+#myBtnContainer button{
+    margin-bottom: 10px;
+}
