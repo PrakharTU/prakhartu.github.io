@@ -17,7 +17,7 @@
  @media (min-width:992px){
     hr{margin-top: 0px}
      #sideNav{
-        background:linear-gradient(0deg,rgb(0, 0, 0),rgba(0, 0, 0, 0.57)),url(../img/nav.jpeg);
+        background:linear-gradient(0deg,rgb(0, 0, 0),rgba(0, 0, 0, 0.57)),url(../img/thapar.jpg);
         background-size:cover;
         text-align:center;
         position:fixed;top:0;left:0;
@@ -54,7 +54,19 @@ section.resume-section{border-bottom:1px solid #dee2e6;padding-top:5rem!importan
  #portfolio{background: #f1f1f145}
 
  @media(max-width:991px){#sideNav{background: #BD5D38 !important;}}
-
+@media(max-width:767px){
+    section.resume-section .resume-item .resume-date img{display: none;}
+}
+@media(max-width:411px){
+    h1{font-size:3rem;line-height:3.5rem;text-align: center}
+    h2{font-size: 2rem}
+    h3{font-size: 1.3rem}
+    .subheading{font-size: 1rem}
+    #myBtnContainer button {padding: 10px;font-size: 13px}
+    .list-social-icons a .fa-lg {font-size: 1.4rem;}
+    /* .hide411{display: none} */
+}
+@media(min-width:522px){.hide522{display: none}}
  #about{color: #000000ed;font-family: roboto; background: #F4F4F4;}
  section.resume-section .btn-drk:hover {
 	background-color:#E45447;
